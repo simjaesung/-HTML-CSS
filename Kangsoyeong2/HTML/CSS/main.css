@@ -16,3 +16,8 @@
   color: green;
   font-weight: bold;
 }
+
+.title {
+  text-align: center;
+  letter-spacing: 10px;
+}
