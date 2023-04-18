@@ -47,35 +47,43 @@
   text-align: left;
 }
 
-.contaimer {
+.container {
   width: 800px;
+  background: khaki;
 }
 
-.header {
+
+.left-menu {
+  width: 70%;
+  height: 200px;
+  background: lightgreen;
+  float: left;
+}
+
+.title{
   width: 100%;
-  height: 50px;
+  height: 120px;
   background: lightblue;
 }
 
-.left-menu {
-  width: 20%;
-  height: 400px;
-  background: lightgreen;
-  display: inline-block;
-  /* float: left; */
+.profileImage{
+  width: 25%;
+  height: 120px;
+  background: orange;
+  float: left;
+}
+
+.contents{
+  width: 100%;
+  height: 180px;
+  background-color: blue;
+  float: left;
 }
 
 .right-menu {
-  width: 80%;
-  height: 400px;
+  width: 30%;
+  height: 300px;
   background: lightpink;
-  display: inline-block;
-  /* float: left; */
+  float: left;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  background: lightgrey;
-  clear: both;
-}
