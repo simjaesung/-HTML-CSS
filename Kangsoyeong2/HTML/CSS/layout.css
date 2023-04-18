@@ -68,3 +68,12 @@
   .profileImage{
     height: 60px;
   }
+
+  .navbar>li{
+    display: inline-block;
+  }
+
+  .navbar a{
+    font-size: 16px;
+    text-decoration: none;
+  }
