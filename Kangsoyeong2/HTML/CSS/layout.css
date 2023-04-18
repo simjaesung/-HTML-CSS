@@ -69,8 +69,13 @@
     height: 60px;
   }
 
-  .navbar>li{
+  .navbar li{
     display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 5px;
+    border-radius: 5px;
   }
 
   .navbar a{
