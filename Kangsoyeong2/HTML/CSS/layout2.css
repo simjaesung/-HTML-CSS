@@ -11,28 +11,35 @@
     margin-top: 0;
     color: white;
     font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 .nasaButton {
-  background: rgb(22, 22, 97);
-  margin-left: 10px;
-  width: 300px;
-  height: 50px;
-  border-radius: 10px;
-  font-size: 25px;
+  padding-bottom: 1px;
+  opacity: 90%;
+  /* background: transparent; */
+  background-image: linear-gradient(315deg, #ddd2ff 0%, #0c103f 84%);
+  width: 100px;
+  height: 45px;
+  font-size: 20px;
+  margin-left: 43%;
+  /* border-radius: 35px; */
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
-  color: rgb(213, 213, 255);
-  border: 5px;
-  border-color: antiquewhite;
-  border-style: double;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(201, 201, 201);
+  border: 2px;
+  border-color: rgb(53, 48, 97);
+  /* border-style:groove; */
 }
 
 .nasa-content {
-    margin-top: 20px;
+    padding-top: 1px;
+    margin-top: 80px;
     color: white;
-    font-size: 20px;
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .button-font{
