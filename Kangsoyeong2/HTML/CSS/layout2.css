@@ -45,11 +45,10 @@
 
 .bottom-box{
     padding: 0;
-    background: lightblue;
+    background: rgb(223, 221, 221);
     width: 90%;
     height: 300px;
     position: relative;
     left: 5%;
     top: -45px;
-
 }
