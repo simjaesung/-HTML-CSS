@@ -62,9 +62,10 @@ div {
     background: rgb(223, 221, 221);
     width: 80%;
     max-width: 750px;
+    max-height: fit-content;
     height: 55%;
     position: relative;
-    top: 20%;
+    top: 8px;
     box-sizing: border-box;
 }
 
