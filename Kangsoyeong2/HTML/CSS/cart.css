@@ -1,3 +1,7 @@
-td {
+td, th {
     border: 1px solid lightgreen;
+}
+
+table {
+    border-collapse: collapse;
 }
