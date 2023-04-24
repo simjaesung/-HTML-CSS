@@ -78,6 +78,23 @@ a:visited {
     border: none;
     border-radius: 5px;
     padding: 20px;
+    cursor: pointer;
+}
+
+.choose-button:hover {
+    background-color: gray;
+}
+
+.choose-button:focus {
+    background-color: darkgoldenrod;
+}
+
+.choose-button:active{
+    background-color: black;
+}
+
+.input-test:focus{
+    background-color: lightsalmon;
 }
 
 .product {
