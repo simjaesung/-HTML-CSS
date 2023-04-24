@@ -84,3 +84,18 @@ a:visited {
     font-size: 13px;
     text-align: left;
 }
+
+.btn {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.rbtn {
+    background: lightcoral;
+}
+
+.bbtn {
+    background: lightskyblue;
+}
