@@ -32,7 +32,7 @@ a:visited {
     height: 100px;
     margin: 10px;
     padding: 10px;
-    display: flex;
+    /* display: flex; */
     /* align-items: center; */
     background-color: coral;
     color: white;
