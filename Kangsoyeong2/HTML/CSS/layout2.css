@@ -4,11 +4,11 @@ div {
 
  .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
  }
 
  .flex-item {
-    width: 100px;
+    width: 400px;
     height: 100px;
     background-color: lightblue;
     margin: 5px;
