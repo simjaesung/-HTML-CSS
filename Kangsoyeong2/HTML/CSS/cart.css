@@ -32,24 +32,23 @@ a:visited {
     height: 100px;
     margin: 10px;
     padding: 10px;
-    /* display: flex; */
-    /* align-items: center; */
+    display: flex;
+    align-items: center;
     background-color: coral;
     color: white;
     font-weight: bold;
  }
 
 .logo-font {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .item-font{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .flex-item {
-    margin-right: 5px;
-    background-color: darkblue;
+    margin-right: 10px;
  }
 
 
