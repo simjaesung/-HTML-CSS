@@ -3,12 +3,14 @@ div {
  }
 
  .flex-container {
+    height: 500px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
  }
 
  .flex-item {
-    width: 400px;
+    width: 100px;
     height: 100px;
     background-color: lightblue;
     margin: 5px;
