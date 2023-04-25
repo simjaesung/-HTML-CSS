@@ -2,30 +2,17 @@ div {
     box-sizing: border-box;
  }
 
- .flex-container {
-    font-weight: bold;
-    height: 500px;
-    color: white;
+
+
+ /* .nav-container{
     display: flex;
     align-items: center;
-    justify-content: center;
  }
 
-.logo-font {
-    font-size: 50px;
-}
-
-.item-font{
-    text-align: right;
-    font-size: 25px;
-}
-
-.flex-item {
-    width: 100px;
-    height: 100px;
-    background-color: coral;
+ .nav-item {
+    margin-right: 10px;
  }
- 
+  */
 
 .main-background {
     width: 100%;
