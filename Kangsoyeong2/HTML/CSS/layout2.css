@@ -4,6 +4,7 @@ div {
 
  .flex-container {
     display: flex;
+    justify-content: end;
  }
 
  .flex-item {
