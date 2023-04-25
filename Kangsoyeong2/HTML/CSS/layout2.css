@@ -4,7 +4,7 @@ div {
 
  .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: end;
  }
 
  .flex-item {
