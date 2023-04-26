@@ -1,11 +1,3 @@
-
-
- .test {
-    width: 100vw;
-    height: 10vh;
-    background: gray;
-}
-
 .main-background {
     width: 100vw;
     height: 50vh;
@@ -68,4 +60,10 @@
     padding-top: 40px;
     font-size: 20px;
     font-weight: lighter;
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 30px;
+    }
 }

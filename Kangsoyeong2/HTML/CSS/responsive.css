@@ -1,0 +1,32 @@
+.background {
+    background: rgb(221, 221, 221);
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.background div {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .background {
+        height: 200px;
+    }
+    .background div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .background {
+        height: 405px;
+    }
+    .background div{
+        width: 100%;
+    }
+}
