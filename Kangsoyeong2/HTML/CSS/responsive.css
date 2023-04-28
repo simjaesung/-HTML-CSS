@@ -34,11 +34,16 @@
     margin: auto;
 }
 
-.overlay-hidden {
+.overlay-wrap {
     position: absolute;
     width: 100%;
     height: 100%;
     overflow: hidden;
+} /*넘치는 부분 자르기*/
+
+.overlay-wrap:hover .overlay{ /*커서를 사진에 올렸을 때*/
+    opacity: 1;
+    margin-top: 50%; /*최종 스타일(100% 불투명 & margin top)*/
 }
 
 .overlay {
@@ -46,14 +51,11 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    margin-top: 70%;  /*시작 스타일(100% 투명)*/
+    opacity: 0; /*시작 스타일(100% 투명)*/
+    margin-top: 100%; 
     transition: all 0.5s;
 }
-.overlay:hover { /*커서를 사진에 올렸을 때*/
-    opacity: 1;
-    margin-top: 60%; /*최종 스타일(100% 불투명)*/
-}
+
 
 .overlay p {
     color: white;
