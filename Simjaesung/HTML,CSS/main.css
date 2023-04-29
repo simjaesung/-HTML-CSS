@@ -276,3 +276,32 @@ input {
 .sev {
   font-size: 20px;
 }
+
+.HW-container{
+    margin: auto;
+    display: flex;
+    
+}
+
+.HW-box{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    flex-grow: 1;
+    
+}
+
+@media screen and (max-width : 1200px) { 
+    .HW-container{
+        flex-wrap: wrap;
+    }
+    .HW-box{
+        flex: 1 1 40%;
+    }
+  } 
+  
+@media screen and (max-width : 768px) { 
+    .HW-container{
+        flex-direction: column;
+    }
+  }
