@@ -1,0 +1,241 @@
+p, h1, h2, h3, h4 {
+    margin: 0;
+    line-height: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(245, 245, 245); */
+}
+
+.navbar-top {
+    display: flex;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 950px;
+    height: 45px;
+}
+
+.navbar-top div, button, img, a{
+    margin-right: 5px;
+}
+
+.woori-logo {
+   width: 31px;
+   margin-top: -3px;
+}
+
+.login-btn {
+    background: rgb(104, 104, 104);
+    color: white;
+    width: 55px;
+    height: 21px;
+    border-radius: 5px;
+    border: none;
+    font-size: 11px;
+    
+}
+
+.main-logo {
+    width: 90px;
+    height: 24px;
+}
+
+.center-font {
+    font-size: 11.7px;
+    padding-top: 3px;
+}
+
+.side-wrap {
+    margin-left: 220px;
+    display: flex;
+}
+
+.input input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #a0a0a0;
+    width: 130px;
+    box-sizing: border-box;
+    height: 26px;
+    display: flex;
+    outline: none;
+}
+
+.input i {
+  position: relative;
+  left: 115px;
+  top: -25px;
+}
+
+.navbar-bottom {
+    width: 950px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navbar-bottom div {
+    background-color: rgb(66, 172, 175);
+    color: white;
+    font-weight: bold;
+    padding-left: 30.62px;
+    padding-right: 30.62px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-end {
+    display: flex;
+    width: 950px;
+    height: 40px;
+    margin: 0 auto;
+    background: rgb(233, 233, 233);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px -4px darkgray;
+    box-sizing: border-box;
+}
+
+.navbar-end i {
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
+.navbar-end p {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 8px;
+    margin-top: 13px;
+}
+
+.side-btn {
+    padding-top:8px;
+    padding-left: 670px;
+}
+
+.side-btn button {
+    outline: 1.5px solid lightgray;
+    border: none;
+    background: white;
+    border-radius: 3px;
+}
+
+.list-wrap {
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.list-wrap ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-wrap li {
+    float: left;
+}
+
+.list-wrap em {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+
+.list-wrap li, a, em {
+    display: block;
+}
+
+.list-wrap img {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.middle-wrap {
+    width: 940px;
+    height: 620px;
+    background: rgb(236, 236, 236);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.left-area {
+    width: 700px;
+    background: #EEEEEE;
+}
+
+.left-area-top, .left-area-bottom {
+    margin-top: 10px;
+    display: flex;
+}
+
+.exchange-care {
+    margin-left: 5px
+}
+
+.abroad {
+    width: 495px;
+    margin-left: 5px;
+}
+
+.internet-exchange {
+    width: 500px;
+    height: 294px;
+}
+
+.internet-exchange img{
+    margin-left: 10px;
+}
+
+.right-area {
+    width: 230px;
+    background: #EEEEEE;
+}
+
+.now-exchange {
+    background: darkgray;
+    margin-top: 10px;
+    margin-left: 7px;
+    width: 220px;
+    height: 30px;
+}
+
+.now-exchange p {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.right-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.exchange-rate img{
+    padding-top: 10px;
+    margin-left: 12px;
+    width: 215px;
+}
+
+.calculator img{
+    width: 215px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.partnership img {
+    width: 215px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
