@@ -1,0 +1,393 @@
+<html>
+    <head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>보험센터 - 재성</title>
+		<link rel="stylesheet" href="style.css">
+		<!-- 메인 슬라이드 -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+		<!-- 제이쿼리 -->
+		<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+		<!-- 아이콘을 위해 삽입 :하트, 폴더 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    </head>
+    <body>
+		<header>
+			<div class="width_px">
+				<div class="header_flex">
+					<div class="header_logo_flex">
+						<a href=""><img src="img/woori_s.png"></a>
+						<a href="" style="margin-top:3px;"><img src="img/is.png"></a>
+						<a href="" class="loginbox">로그인</a>
+						<a href="" class="injing">인증센터</a>
+					</div>
+
+					<div class="header_nav_search">
+						<a href=""><img src="img/new_tit_ps.png"></a>
+						<a href=""><img src="img/new_tit_bz.png"></a>
+						<a href=""><img src="img/new_tit_my.png"></a>
+						<a href=""><img src="img/new_tit_wa.png"></a>
+						<a href=""><img src="img/new_tit_po.png"></a>
+						<a href=""><img src="img/new_tit_cd.png"></a>
+						<a href=""><img src="img/tit_sitemap.png"></a>
+						<span class="top_search">
+							<input type="text">
+							<a href=""><i class="fa fa-magnifying-glass"></i></a>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="width_px">
+				<ul class="nav">
+					<li><a href="">보험상품</a>
+						<div class="subnav">
+							<ul>
+								<li><a href="">보험상품1</a></li>
+								<li><a href="">보험상품2</a></li>
+								<li><a href="">보험상품3</a></li>
+								<li><a href="">보험상품1</a></li>
+
+								<li><a href="">보험상품2</a></li>
+								<li><a href="">보험상품3</a></li>
+								<li><a href="">보험상품1</a></li>
+								<li><a href="">보험상품2</a></li>
+								<li><a href="">보험상품3</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="">보험조회</a></li>
+					<li><a href="">보험신규</a></li>
+					<li><a href="">보험입금</a></li>
+					<li><a href="">자료실</a></li>
+					<li><a href="">보험가이드</a></li>					
+				</ul>
+				<div class="nav_bottom"></div>
+			</div>
+		</header>
+		
+		<div class="width_px">
+			<div class="banner_flex">
+				<div class="banner1">
+					<!-- Swiper -->
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="img/main_bann01.png"></div>
+							<div class="swiper-slide"><img src="img/main_bann03.png"></div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+					</div>
+					
+					<div class="quick_btn">
+						<span><a href="" class="btnLink">인터넷</a></span>
+						<span><a href="" class="btnLink">모바일</a></span>
+						<span><a href="" class="btnLink">비과세</a></span>
+						<span><a href="" class="btnLink">예금자보험</a></span>
+					</div>
+				</div>
+
+				<div class="banner2">
+					<div class="banner2_title">내가 해보는 간편설계</div>
+					
+					<select name="" id="" title="보험종류 선택">
+						<option value="02">연금보험</option>
+						<option value="03">저축보험</option>
+						<option value="04">세액공제연금</option>
+					</select>
+
+					<select name="" id="" title="상품 선택">
+						<option value="">(무)보너스주는e저축보험Ⅵ</option>
+						<option value="">교보라이프플래닛(무)b저축보험</option>
+					</select>
+
+					<div>
+						<span>
+							<a href="#none" id="sexM" class="btnLink">남자</a>
+						</span>
+						
+						<span>
+							<a href="#none" id="sexF" class="btnLink">여자</a>
+						</span>							
+					</div>
+
+					<input name="" title="생년월일 입력" id="" type="text" maxlength="8" value="" placeholder="생년월일 (예 : 19770817)" mask="n">
+					
+					<div class="input_won">
+						<input name="=" title="(10만원 이상)" id="" type="text" maxlength="3" value="" placeholder="(10만원 이상)" mask="n" class="padding_right">
+						<span>만원</span>
+					</div>
+
+					<a href="#none" class="btnRed">보험료확인</a>
+
+				</div>
+				
+				<div class="banner3">
+					<a href=""><img src="img/main_quick_20201005.jpg"></a>
+				</div>
+			</div>
+
+			<div class="tabs">
+
+				<input id="tab1" type="radio" name="tabs" checked>
+				<label for="tab1">
+					<div class="boxs_ment">안전한 목돈마련</div>
+					<div class="boxs_title">저축보험</div>
+				</label>
+				
+				<input id="tab2" type="radio" name="tabs">
+				<label for="tab2">
+					<div class="boxs_ment">건강한 노후대책</div>
+					<div class="boxs_title">연금보험</div>
+				</label>
+
+				<input id="tab3" type="radio" name="tabs">
+				<label for="tab3">
+					<div class="boxs_ment">절세상품 세액공제</div>
+					<div class="boxs_title">연금저축보험</div>
+				</label>
+
+				<input id="tab4" type="radio" name="tabs">
+				<label for="tab4">
+					<div class="boxs_ment">투자상품 포트폴리오</div>
+					<div class="boxs_title">변액보험</div>
+				</label>
+
+				<input id="tab5" type="radio" name="tabs">
+				<label for="tab5">
+					<div class="boxs_ment">상해/질병/암 보장</div>
+					<div class="boxs_title">보장성보험</div>
+				</label>
+
+				<input id="tab6" type="radio" name="tabs">
+				<label for="tab6">
+					<div class="boxs_ment">여행/골프/레저</div>
+					<div class="boxs_title">여행, 골프보험 등</div>
+				</label>
+
+				
+				<section id="tabs_centent1">
+					<div class="list_qty"><strong>2</strong>개의 보험상품이 검색되었습니다.</div>
+					
+					<ul>
+						<li>
+							<div class="listcentents_flex">
+								<div class="left_block_product">
+									<div class="product_name1">[저축보험] <span>교보라이프플래닛생명</span></div>
+									<a class="product_name2" href="">교보라이프플래닛(무)b저축보험</a>
+									<div class="product_ment">다양한 목돈마련 준비엔 온라인전용 저축보험</div>
+									<ul>
+										<li>스마트폰</li>
+										<li>인터넷</li>
+										<li>예금자보호</li>
+										<li>비과세</li>
+										<li><a href="">미리보기</a></li>
+									</ul>
+								</div>
+								<div class="right_block_product">
+									<a href="" class="font1">가입하기</a>
+									<a href="" class="font2">상세보기</a>
+									<a href="" class="icon"><i class="fa fa-heart"></i></a>
+									<a href="" class="icon"><i class="fa fa-folder-plus"></i></a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="listcentents_flex">
+								<div class="left_block_product">
+									<div class="product_name1">[저축보험] <span>교보라이프플래닛생명</span></div>
+									<a class="product_name2" href="">교보라이프플래닛(무)b저축보험</a>
+									<div class="product_ment">다양한 목돈마련 준비엔 온라인전용 저축보험</div>
+									<ul>
+										<li>스마트폰</li>
+										<li>인터넷</li>
+										<li>예금자보호</li>
+										<li>비과세</li>
+										<li><a href="">미리보기</a></li>
+									</ul>
+								</div>
+								<div class="right_block_product">
+									<a href="" class="font1">가입하기</a>
+									<a href="" class="font2">상세보기</a>
+									<a href="" class="icon"><i class="fa fa-heart"></i></a>
+									<a href="" class="icon"><i class="fa fa-folder-plus"></i></a>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="listcentents_flex">
+								<div class="left_block_product">
+									<div class="product_name1">[저축보험] <span>교보라이프플래닛생명</span></div>
+									<a class="product_name2" href="">교보라이프플래닛(무)b저축보험</a>
+									<div class="product_ment">다양한 목돈마련 준비엔 온라인전용 저축보험</div>
+									<ul>
+										<li>스마트폰</li>
+										<li>인터넷</li>
+										<li>예금자보호</li>
+										<li>비과세</li>
+										<li><a href="">미리보기</a></li>
+									</ul>
+								</div>
+								<div class="right_block_product">
+									<a href="" class="font1">가입하기</a>
+									<a href="" class="font2">상세보기</a>
+									<a href="" class="icon"><i class="fa fa-heart"></i></a>
+									<a href="" class="icon"><i class="fa fa-folder-plus"></i></a>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<div class="number_page_no">
+						<a href="" class="on">1</a>
+						<a href="">2</a>
+						<a href="">3</a>
+					</div>
+				</section>
+
+				<section id="tabs_centent2">
+					<div class="list_qty"><strong>0</strong>개의 보험상품이 검색되었습니다.</div>
+
+					<ul>
+						<li>
+							<div class="no_product">등록된 상품이 없습니다</div>
+						</li>
+					</ul>
+				</section>
+
+				<section id="tabs_centent3">
+					<div class="list_qty"><strong>0</strong>개의 보험상품이 검색되었습니다.</div>
+
+					<ul>
+						<li>
+							<div class="no_product">등록된 상품이 없습니다</div>
+						</li>
+					</ul>
+				</section>
+
+				<section id="tabs_centent4">
+					<div class="list_qty"><strong>0</strong>개의 보험상품이 검색되었습니다.</div>
+
+					<ul>
+						<li>
+							<div class="no_product">등록된 상품이 없습니다</div>
+						</li>
+					</ul>
+				</section>
+
+				<section id="tabs_centent5">
+					<div class="list_qty"><strong>0</strong>개의 보험상품이 검색되었습니다.</div>
+
+					<ul>
+						<li>
+							<div class="no_product">등록된 상품이 없습니다</div>
+						</li>
+					</ul>
+				</section>
+
+				<section id="tabs_centent6">
+					<div class="list_qty"><strong>0</strong>개의 보험상품이 검색되었습니다.</div>
+
+					<ul>
+						<li>
+							<div class="no_product">등록된 상품이 없습니다</div>
+						</li>
+					</ul>
+				</section>
+
+				
+			</div><!-- tabs //-->
+
+
+
+
+		</div>
+
+		<footer>
+			<div class="line_block">
+				<div class="width_px">
+					
+					<div class="link_sns_links_flex">
+						<div class="links"> 
+							<div class="more">
+								<dl class="js-display-hover ars ui-set-display-hover" data-ui-animation="true">
+									<dt><a href="#none" class="js-display-hover-trigger">대표 <strong>1588-5000</strong></a></dt>									
+								</dl>
+								
+								<dl class="js-display-hover etc ui-set-display-hover" data-ui-animation="true">
+									<dt><a href="#none" class="js-display-hover-trigger">기타서비스</a></dt>
+								</dl>
+								<dl class="js-display-hover language ui-set-display-hover" data-ui-animation="true">
+									<dt><a href="#none" class="js-display-hover-trigger">LANGUAGE</a></dt>
+								</dl>
+								<dl class="js-display-hover family ui-set-display-hover" data-ui-animation="true">
+									<dt><a href="#none" class="js-display-hover-trigger">패밀리사이트</a></dt>
+								</dl>
+							</div>
+						</div>
+
+						<div class="sns-links">
+							<div class="icon facebook"><a href="https://www.facebook.com/wooribank" target="_blank" title="새창열림"><img alt="우리은행 facebook(페이스북) 이동" src="img/icon_facebook_gray.png"></a></div>
+							<div class="icon instagram"><a href="https://www.instagram.com/wooribank_kr/" target="_blank" title="새창열림"><img alt="우리은행 instagram(인스타그램) 이동" src="img/icon_instagram_gray.png"></a></div>
+							<div class="icon post_naver"><a href="http://m.post.naver.com/woori_official" target="_blank" title="새창열림"><img alt="우리은행 네이버 포스트 이동" src="img/icon_post_naver_gray.png"></a></div>
+							<div class="icon youtube"><a href="https://www.youtube.com/user/wooribank" target="_blank" title="새창열림"><img alt="우리은행 youtube(유튜브) 이동" src="img/icon_youtube_gray.png"></a></div>
+							<div class="icon navertv"><a href="http://tv.naver.com/wooribanktv" target="_blank" title="새창열림"><img alt="우리은행 네이버TV 이동" src="img/icon_navertv_gray.png"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="width_px">
+				<div class="footer_logo_a_flex">
+					<div class="left_logo"><a href=""><img src="img/icon_woori.gif"></a></div>
+					
+					<div class="right-content">
+						<div class="info">
+							<p class="quick">
+								<a href="https://spot.wooribank.com/pot/Dream?withyou=bp">은행소개</a>&nbsp;&nbsp;|&nbsp;
+								<a title="새창열림" href="#none">영업점안내</a>&nbsp;&nbsp;|&nbsp;
+								<a href="https://spot.wooribank.com/pot/Dream?withyou=cq">고객광장</a>&nbsp;&nbsp;|&nbsp;
+								<a href="https://spot.wooribank.com/pot/Dream?withyou=CQSCT0048" class="font-bold">개인정보처리방침</a>&nbsp;&nbsp;|&nbsp;
+								<a href="https://spot.wooribank.com/pot/Dream?withyou=CQSCT0132" class="font-bold">신용정보활용체제</a>&nbsp;&nbsp;|&nbsp;
+								<a href="/pot/Dream?withyou=CQSCT0049">개인신용정보관리보호 </a><br>                
+								<a href="/pot/Dream?withyou=CQACR0001">사고신고</a>&nbsp;&nbsp;|&nbsp;
+								<a href="/pot/Dream?withyou=CQCSD0001">전자민원접수</a>&nbsp;&nbsp;|&nbsp;
+								<a href="/pot/Dream?withyou=POTRT0033">보호금융상품등록부</a>&nbsp;&nbsp;|&nbsp;
+								<a href="/pot/Dream?withyou=CQPNC0002">상품공시실</a>&nbsp;&nbsp;|&nbsp;
+								<a href="/pot/Dream?withyou=CQSCT0001">보안센터</a>&nbsp;&nbsp;|&nbsp;
+								<a href="/pot/Dream?withyou=CQIBG0050">웹접근성 이용안내</a>
+							</p>
+							<p class="copyright">COPYRIGHTS WOORI BANK. ALL RIGHTS RESERVED.</p>
+						</div>
+						<div class="info2">
+								
+							<div class="js-display-hover icon icon-1 ui-set-display-hover" data-ui-animation="true">
+								<a href="#none" class="js-display-hover-trigger"><img alt="2019 고객감동경영대상 종합대상 12년 연속 수상" src="img/icon_1_new.gif"></a>
+								<div class="icon-box js-display-hover-area" style="display:none;">
+									2019 고객감동경영대상<br>종합대상 12년 연속 수상
+									<span class="arrow"></span>
+								</div>
+							</div>
+							<div class="js-display-hover icon icon-2 ui-set-display-hover" data-ui-animation="true">
+								<a href="#none" class="js-display-hover-trigger"><img alt="The Banker Awards 2020 우리은행 3관왕 수상" src="img/icon_20201215.png"></a>
+								<div class="icon-box js-display-hover-area" style="display:none;">
+									The Banker Awards 2020<br>우리은행 3관왕 수상
+									<span class="arrow"></span>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<script src = "js.js"></script>
+    </body>
+</html>
