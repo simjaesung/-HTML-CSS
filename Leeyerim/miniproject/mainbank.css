@@ -237,3 +237,134 @@ a {
   width: 85px;
   height: 20px;
 }
+.imgcalcu {
+  width: 660px;
+  height: 257px;
+}
+.emtybox {
+  width: 100%;
+  height: 30px;
+}
+.bottomset {
+  height: auto;
+  width: 100%;
+  flex: 1;
+  border-right: 1px solid #555555;
+}
+.bottomset_last {
+  border-right: 0px solid #555555;
+}
+.titletext {
+  font-size: 15px;
+  margin-left: 15px;
+}
+.titletext h3 {
+  margin-bottom: 10px;
+}
+.titletext li {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.bottomset_last li {
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.bottomset_last span {
+  font-size: 13px;
+  font-weight: 100;
+}
+.bottomimg {
+  width: 90%;
+}
+.content_text {
+  display: flex;
+}
+.contenttext {
+  justify-content: flex-start;
+  margin-right: 13px;
+}
+.bottomimgstar {
+  width: 150px;
+  height: auto;
+}
+footer {
+}
+footer .link_sns_links_flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .line_block {
+  border-top: 2px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  background: #f8f8f8;
+  padding: 10px 0;
+}
+.js-display-hover {
+  margin: 0;
+}
+.more {
+  display: flex;
+}
+footer .links .js-display-hover-trigger {
+  display: inline-block;
+  width: 154px;
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  border-right: 1px solid #ddd;
+  padding-right: 30px;
+  background-position: 126px center;
+}
+footer .links,
+.sns-links {
+  display: flex;
+}
+footer .sns-links a {
+  margin: 0 5px;
+}
+
+footer .footer_logo_a_flex {
+  display: flex;
+  justify-content: left;
+  margin: 20px 0 40px;
+}
+footer .left_logo {
+  width: 100px;
+  text-align: center;
+  margin: 5px 0 0;
+}
+footer .quick {
+  margin: 0;
+  color: #666;
+  font-size: 11px;
+  letter-spacing: 0;
+}
+footer .quick a {
+  color: #7f7f7f;
+  line-height: 20px;
+  font-size: 12px;
+}
+footer .quick a:hover {
+  color: #7f7f7f;
+}
+footer .quick .font-bold {
+  font-weight: bold;
+}
+footer .right-content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+footer .info .copyright {
+  color: #7f7f7f;
+  font-family: Arial;
+  font-size: 11px;
+}
+footer .info2 {
+  padding: 25px;
+}
+footer .info2 .js-display-hover {
+  display: inline;
+}
